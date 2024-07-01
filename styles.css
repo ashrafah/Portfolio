@@ -1,0 +1,163 @@
+Body {
+    Font-family: Arial, sans-serif;
+    Margin: 0;
+    Background-color: #000;
+    Color: #fff;
+}
+
+.centered-peragraph {
+
+    width: 50%;
+    margin: auto;
+    text-align: justify;
+}
+
+Header {
+    Background-color: #222;
+    Padding: 10px 0;
+}
+
+Nav ul {
+    List-style-type: none;
+    Padding: 0;
+    Text-align: center;
+}
+
+Nav ul li {
+    Display: inline;
+    Margin: 0 15px;
+}
+
+Nav ul li a {
+    Color: #fff;
+    Text-decoration: none;
+    Font-weight: bold;
+    Cursor: pointer;
+}
+
+.section {
+    Padding: 50px 20px;
+    Text-align: center;
+}
+
+.hidden {
+    Display: none;
+}
+
+H1, h2 {
+    Color: #ffd700;
+}
+
+.skill-bar {
+    Margin: 20px 0;
+    Text-align: left;
+}
+
+.skill-name {
+    Font-size: 18px;
+}
+
+.progress-bar {
+    Background-color: #444;
+    Border-radius: 20px;
+    Overflow: hidden;
+    Width: 100%;
+    Height: 25px;
+}
+
+.progress {
+    Height: 100%;
+    Border-radius: 20px;
+}
+
+.java {
+    Width: 80%;
+    Background-color: #f0db4f;
+}
+
+.css {
+    Width: 80%;
+    Background-color: #2965f1;
+}
+
+.html {
+    Width: 90%;
+    Background-color: #e34c26;
+}
+
+.python {
+    Width: 90%;
+    Background-color: #306998;
+}
+
+.pascal {
+    Width: 80%;
+    Background-color: #004080;
+}
+
+.social-media img {
+    Width: 40px;
+    Margin: 0 10px;
+}
+
+.footer {
+    Margin-top: 50px;
+    Text-align: center;
+}
+
+.footer a {
+    Display: inline;
+    Margin-top: 20px;
+    Color: #ffd700;
+    Text-decoration: none;
+    Font-weight: bold;
+}
+
+A:hover {
+    Color: #ffd700;
+}
+
+Form {
+    Display: block;
+    Margin: 0 auto;
+    Max-width: 400px;
+    Text-align: left;
+}
+
+Form label {
+    Display: block;
+    Margin: 10px 0 5px;
+}
+
+Form input, form textarea {
+    Width: 100%;
+    Padding: 10px;
+    Margin-bottom: 10px;
+    Border: none;
+    Border-radius: 5px;
+}
+
+Form button {
+    Padding: 10px 20px;
+    Background-color: #ffd700;
+    Color: #000;
+    Border: none;
+    Border-radius: 5px;
+    Cursor: pointer;
+}
+
+Form button:hover {
+    Background-color: #e0c700;
+}
+
+@media (max-width: 768px) {
+    Nav ul li {
+        Display: block;
+        Margin: 10px 0;
+    }
+
+    .progress-bar {
+        Height: 20px;
+    }
+}
+
